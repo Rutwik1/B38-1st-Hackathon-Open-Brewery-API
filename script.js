@@ -34,7 +34,6 @@ const getData = async() => {
     } 
 
 }
-
 getData();
 
 const displayData = (obj) => {

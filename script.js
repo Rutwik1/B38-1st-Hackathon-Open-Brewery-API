@@ -6,7 +6,7 @@ document.body.innerHTML = `<div class = "heading-container container-fluid">
 </header>
 
 <section class="img-section">
-<img class="img" src="brewery.jpg" width="100%" height="40%">
+<img class="img" src="craft-beer-header.png" width="100%" height="40%">
 </section>
 <div>
 

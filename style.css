@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.heading-container{
+	text-align: center;
+	margin-top: 20px;
+	color: rgb(231, 16, 16);
+	background: white;
+}
+
+.main-Container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+.heading{
+	background-color: rgb(29, 28, 44);
+}
+
+
+.img-section{
+	margin-top: 20px;
+}
+
+
+.brewery-list{
+	margin-top: 25px;
+	text-decoration:underline;
+	
+}
+
+.container{
+	background-color: rgb(228, 231, 238);
+	padding: 10px;
+	border-radius: 15px;
+	margin: 15px;
+	width: 400px;
+	color: blue;
+}
+
+
+.footer-section{
+	padding: 10px;
+	margin-top: 150px;
+	background-color: rgb(159, 157, 197);
+	color: rgb(0, 0, 0);
+	
+	
+	
+}

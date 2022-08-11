@@ -1,6 +1,6 @@
-// Build html elements 
-
+// All HTML elements is created with DOM
 document.body.innerHTML = `<div class = "heading-container container-fluid">
+
 <header class="heading">
 <h1>Breweries</h1>
 </header>
@@ -20,8 +20,8 @@ document.body.innerHTML = `<div class = "heading-container container-fluid">
 <footer class="footer">Created By: <strong>Rutwik Kalbandhe</strong></footer>
 </section>`;
 
-// Create a function to fetch data from the api
 
+// function to fetch data from the api
 const getData = async() => {
     try {
         const data = await fetch("https://api.openbrewerydb.org/breweries");
